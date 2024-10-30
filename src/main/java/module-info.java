@@ -11,6 +11,6 @@ module org.syslocacar {
     //requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens org.syslocacar to javafx.fxml;
+    opens org.syslocacar.controller to javafx.fxml;
     exports org.syslocacar;
 }
